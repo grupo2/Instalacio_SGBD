@@ -81,11 +81,21 @@ I una vegada hi hagi acabat farem el nostre `sudo yum upgrade`.
 A l'apartat 9, en les ultimes captures he fet el procediment per poder inserir la contrasenya patata.
 
 #### Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades de Percona Server en el CentOS 7
-Les instruccions per arrancar el servei és
-`sudo systemctl `
+Les instruccions per arrancar el servei és <br>
+`sudo systemctl start myslqd`
+
+Les instruccions per aturar el servei és <br>
+`sudo systemctl stop myslqd`
+
+Les instruccions per veure l'estat del servei és <br>
+`sudo systemctl status myslqd`
+
+
 #### A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?
+El fitxer es el següent `/etc/my.cnf`.
 
 #### A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?
+
 
 #### Crea un usuari anomenat asix en el sistema operatiu i en SGBD de tal manera que aquest usuari del sistema operatiu no hagi d'introduir l'usuari i password cada vegada que cridem al client mysql?
   1. https://dev.mysql.com/doc/refman/8.0/en/password-security-user.html
