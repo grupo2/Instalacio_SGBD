@@ -73,3 +73,25 @@ I una vegada hi hagi acabat farem el nostre `sudo apt-get upgrade`
 
 ![image](https://user-images.githubusercontent.com/80846119/153274714-df52c751-f951-40b3-9f6f-5ff71ca08ba1.png)
 #
+#
+
+## RESPON O COMPROVA ELS SEGÜENTS APARTATS
+
+# Un cop realitzada la instal·lació realitza una securització de la mateixa. Quin programa realitza aquesta tasca? Realitza una securització de la instal·lació indicant que la contrasenya de root sigui patata.
+
+# Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades de Percona Server en el CentOS 7
+
+# A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?
+
+# A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?
+
+# Crea un usuari anomenat asix en el sistema operatiu i en SGBD de tal manera que aquest usuari del sistema operatiu no hagi d'introduir l'usuari i password cada vegada que cridem al client mysql?
+  1. https://dev.mysql.com/doc/refman/8.0/en/password-security-user.html
+  2. Usuari SO-→ asix / patata
+  3. Usuari MySQL → asix / patata
+
+# El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? 
+
+# Important: No realitzis els canvis. Només indica els passos que faries.
+
+# Ensenya al professor que us podeu connectar al SGBD.
