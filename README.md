@@ -121,26 +121,31 @@ Els fitxers que hi han per defecte són els següents:<br>
 
 #### El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? 
 Em de modificar el següent arxiu. <br>
+
 ![image](https://user-images.githubusercontent.com/80846119/154340108-1887257c-2635-4a5a-894e-0c0087b8d469.png)
 
 
 INSTALAR MYSQL
 
 0.  Una vegada que em instal·lat tota la part de mysql. (<b>no faig el procediment perquè ja hi és al primer apartat</b>).
+
     ![image](https://user-images.githubusercontent.com/80846119/154346934-f357050c-60b7-4820-8a01-26b03b2db594.png)
 
 1. A on es troben físicament els fitxers de dades?
+
     ![image](https://user-images.githubusercontent.com/80846119/154342921-4901db4a-cd57-4481-91d8-5ae4ef02bb75.png)
 
 2. A on es troba el fitxer de configuració? Quin és el seu contingut?
     El fitxer de configuració es trobra a `/etc/my.cnf`<br> 
+    
     ![image](https://user-images.githubusercontent.com/80846119/154342730-b645bd6f-bdd2-4881-a3fa-673247b3ea72.png)
     
 3. El procés de mysqld escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? Important: No realitzis els canvis. Només indica els passos que faries.
     Em de modificar el següent arxiu. <br>
+    
     ![image](https://user-images.githubusercontent.com/80846119/154340108-1887257c-2635-4a5a-894e-0c0087b8d469.png)
 
-4. Un cop finalitzada la instal·lació i veure que funciona, mostra el resultat de la comanda:
+4. Un cop finalitzada la instal·lació i veure que funciona, mostra el resultat de la comanda:<br>
    `ps -ef | grep mysql`<br>
    ![image](https://user-images.githubusercontent.com/80846119/154349318-b68e761c-69de-4c9b-91fd-149393a79a3e.png)
 
@@ -149,15 +154,19 @@ INSTALAR MYSQL
 INSTALAR MONGODB
 
 1.  Primer em de crear un repositori, amb el següent contingut, la comanda ha de ser `sudo nano /etc/yum.repos.d/mongodb.org-4.4.repo`.
+
 ![image](https://user-images.githubusercontent.com/80846119/154326186-94d7f174-f747-44b7-aed4-b521aad33bc7.png)
 
 2.  Ara intal·larem el servei del MongoDB amb la seguent comanda `sudo yum install mongodb-org`.
+
 ![image](https://user-images.githubusercontent.com/80846119/154327940-d4cc8687-2b10-461d-b09b-6738bb7c4bae.png)
 
 3.  Una vegada intal·lat, iniciem el servei del nostre mongo db, i mirem el seu estat.
+
 ![image](https://user-images.githubusercontent.com/80846119/154328000-d0bde21c-83f3-40bf-b7e9-2da31efccf07.png)
 
 4.  Ara ens podem conecta localment a MongoDB.
+
 ![image](https://user-images.githubusercontent.com/80846119/154328423-a50474a5-7317-4236-9c67-906ca739276b.png)
 
 
