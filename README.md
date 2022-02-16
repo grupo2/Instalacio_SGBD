@@ -171,8 +171,47 @@ Em de modificar el següent arxiu. <br>
    ![image](https://user-images.githubusercontent.com/80846119/154328423-a50474a5-7317-4236-9c67-906ca739276b.png)
 
 5. Seguidament em de confirar el FireWall.<br>
+
    ![image](https://user-images.githubusercontent.com/80846119/154359336-ef76f32a-fbb8-4fb4-a855-c7ac06a9d940.png)
 
 
+## Instal·lació SGBD SQLServer
 
+1. Priemer em de preparar el repositori.
 
+  ![image](https://user-images.githubusercontent.com/80846119/154361368-82e49eb4-d229-4398-b0ef-26675d5cae69.png)
+
+2. Seguidament em de instalar el SQLServer.
+
+  ![image](https://user-images.githubusercontent.com/80846119/154360858-d934460a-3bd6-4770-9bfd-2ec26f54334b.png)
+  
+  ![image](https://user-images.githubusercontent.com/80846119/154361294-c3976bb5-a8cf-4d82-af51-c15666828cd5.png)
+
+3. Amb la seguent comanda em d'escollir la versió SQL.
+  
+  ![image](https://user-images.githubusercontent.com/80846119/154361726-7c1eff9b-c75e-4f75-b68c-b27d8fc37040.png)
+
+4. Iniciem el nostre servei.
+  
+  ![image](https://user-images.githubusercontent.com/80846119/154363475-226bfae4-7b29-4416-9787-2df248e868c6.png)
+
+5. Per poder connectar amb l'estancia de Base de Dades, instal·larem el SQLCMD.
+  
+  ![image](https://user-images.githubusercontent.com/80846119/154364812-78438f5f-afe6-40e5-9747-af7d0c1db06b.png)
+
+6. d
+  
+  ![image](https://user-images.githubusercontent.com/80846119/154365070-43de4ef2-55c2-4416-ae1b-e1c2661350d0.png)
+
+7.
+  
+  ![image](https://user-images.githubusercontent.com/80846119/154365365-71b9994d-61b4-4f53-be91-5f72e2038042.png)
+
+8. Afegirem 
+
+  ![image](https://user-images.githubusercontent.com/80846119/154365704-4d906a32-a043-4db5-b9b1-6476a03bb481.png)
+
+9. Iniciem el servei amb l'usuari `sa`.
+  
+    
+  
