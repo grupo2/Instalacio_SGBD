@@ -98,11 +98,17 @@ El fitxer es el següent `/etc/my.cnf`.
 
 
 #### Crea un usuari anomenat asix en el sistema operatiu i en SGBD de tal manera que aquest usuari del sistema operatiu no hagi d'introduir l'usuari i password cada vegada que cridem al client mysql?
+
   1. https://dev.mysql.com/doc/refman/8.0/en/password-security-user.html
   2. Usuari SO-→ asix / patata
   3. Usuari MySQL → asix / patata
+    
+  Per fer aquesta part, em de canviar la politica del mysql.<br>
+  ![image](https://user-images.githubusercontent.com/80846119/154338642-c3d8f933-c292-4c37-a710-cf759e1c5d52.png)
 
 #### El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? 
+Em de modificar el següent arxiu. <br>
+![image](https://user-images.githubusercontent.com/80846119/154340108-1887257c-2635-4a5a-894e-0c0087b8d469.png)
 
 #### Important: No realitzis els canvis. Només indica els passos que faries.
 
