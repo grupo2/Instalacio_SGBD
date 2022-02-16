@@ -97,6 +97,7 @@ El fitxer es el següent `/etc/my.cnf`.
 
 
 #### A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?
+Ho he sabut perque en el fitxer de `/etc/my.cnf` hi ha un apartat on diu diu 'data dir' que apunta en aquells fitxers.<br>
 Els fitxers que hi han per defecte són els següents:<br>
 ![image](https://user-images.githubusercontent.com/80846119/154342921-4901db4a-cd57-4481-91d8-5ae4ef02bb75.png)
 
@@ -115,15 +116,35 @@ Els fitxers que hi han per defecte són els següents:<br>
       - Ara modificarem l'arxiu i afegirem 2 linies més.
       ![image](https://user-images.githubusercontent.com/80846119/154345263-cca11d0c-b3ca-4b85-9b54-26a30e1ba868.png)
 
+      - Comprovacions.
+      ![image](https://user-images.githubusercontent.com/80846119/154346245-d5a02765-e56b-45a9-9099-5429859a85f3.png)
 
 #### El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? 
 Em de modificar el següent arxiu. <br>
 ![image](https://user-images.githubusercontent.com/80846119/154340108-1887257c-2635-4a5a-894e-0c0087b8d469.png)
 
-#### Important: No realitzis els canvis. Només indica els passos que faries.
 
-#### Ensenya al professor que us podeu connectar al SGBD.
+INSTALAR MYSQL
 
+0.  Una vegada que em instal·lat tota la part de mysql. (<b>no faig el procediment perquè ja hi és al primer apartat</b>).
+    ![image](https://user-images.githubusercontent.com/80846119/154346934-f357050c-60b7-4820-8a01-26b03b2db594.png)
+
+1. A on es troben físicament els fitxers de dades?
+    ![image](https://user-images.githubusercontent.com/80846119/154342921-4901db4a-cd57-4481-91d8-5ae4ef02bb75.png)
+
+2. A on es troba el fitxer de configuració? Quin és el seu contingut?
+    El fitxer de configuració es trobra a `/etc/my.cnf`<br> 
+    ![image](https://user-images.githubusercontent.com/80846119/154342730-b645bd6f-bdd2-4881-a3fa-673247b3ea72.png)
+    
+3. El procés de mysqld escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? Important: No realitzis els canvis. Només indica els passos que faries.
+    Em de modificar el següent arxiu. <br>
+    ![image](https://user-images.githubusercontent.com/80846119/154340108-1887257c-2635-4a5a-894e-0c0087b8d469.png)
+
+4. Un cop finalitzada la instal·lació i veure que funciona, mostra el resultat de la comanda:
+   `ps -ef | grep mysql`<br>
+   ![image](https://user-images.githubusercontent.com/80846119/154349318-b68e761c-69de-4c9b-91fd-149393a79a3e.png)
+
+6. Quines són les característiques principals que ofereix MySQL 8.0 enfront de la 5.7.
 
 INSTALAR MONGODB
 
