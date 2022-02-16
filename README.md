@@ -82,19 +82,23 @@ A l'apartat 9, en les ultimes captures he fet el procediment per poder inserir l
 
 #### Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades de Percona Server en el CentOS 7
 Les instruccions per arrancar el servei és <br>
-`sudo systemctl start myslqd`
+`sudo systemctl start mysql.service`
 
 Les instruccions per aturar el servei és <br>
-`sudo systemctl stop myslqd`
+`sudo systemctl stop mysql.service`
 
 Les instruccions per veure l'estat del servei és <br>
-`sudo systemctl status myslqd`
+`sudo systemctl status mysql.service`
 
 
 #### A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?
 El fitxer es el següent `/etc/my.cnf`.
+![image](https://user-images.githubusercontent.com/80846119/154342730-b645bd6f-bdd2-4881-a3fa-673247b3ea72.png)
+
 
 #### A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?
+Els fitxers que hi han per defecte són els següents:<br>
+![image](https://user-images.githubusercontent.com/80846119/154342921-4901db4a-cd57-4481-91d8-5ae4ef02bb75.png)
 
 
 #### Crea un usuari anomenat asix en el sistema operatiu i en SGBD de tal manera que aquest usuari del sistema operatiu no hagi d'introduir l'usuari i password cada vegada que cridem al client mysql?
@@ -102,9 +106,15 @@ El fitxer es el següent `/etc/my.cnf`.
   1. https://dev.mysql.com/doc/refman/8.0/en/password-security-user.html
   2. Usuari SO-→ asix / patata
   3. Usuari MySQL → asix / patata
-    
-  Per fer aquesta part, em de canviar la politica del mysql.<br>
-  ![image](https://user-images.githubusercontent.com/80846119/154338642-c3d8f933-c292-4c37-a710-cf759e1c5d52.png)
+      - Crearem l'usuari al nostre sistema.
+        ![image](https://user-images.githubusercontent.com/80846119/154343857-db7a5173-c381-4871-ab48-f1ab072ff123.png)
+  
+      - En el nostre Mysql farem les següents comandes, a part de les de creació del propi usuari.
+        ![image](https://user-images.githubusercontent.com/80846119/154344681-a92ed103-742f-4ebf-a458-8c7ff08e1610.png)
+        
+      - Ara modificarem l'arxiu i afegirem 2 linies més.
+      ![image](https://user-images.githubusercontent.com/80846119/154345263-cca11d0c-b3ca-4b85-9b54-26a30e1ba868.png)
+
 
 #### El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? 
 Em de modificar el següent arxiu. <br>
