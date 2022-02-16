@@ -170,7 +170,7 @@ Em de modificar el següent arxiu. <br>
 
    ![image](https://user-images.githubusercontent.com/80846119/154328423-a50474a5-7317-4236-9c67-906ca739276b.png)
 
-5. Seguidament em de confirar el FireWall.
+5. Seguidament em de confirar el FireWall.<br>
    ![image](https://user-images.githubusercontent.com/80846119/154359336-ef76f32a-fbb8-4fb4-a855-c7ac06a9d940.png)
 
 
