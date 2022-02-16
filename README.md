@@ -11,33 +11,33 @@ Taula de continguts:
 
 
 #### Abans de començar haurem de tenir les nostres màquines actualitzades.
-Farem un `sudo apt-get update`.
-I una vegada hi hagi acabat farem el nostre `sudo apt-get upgrade`
+Farem un `sudo yum update`. <br>
+I una vegada hi hagi acabat farem el nostre `sudo yum upgrade`.
 #
 
 ## [Instal·lació server SGBD (percona server)]()
 
-1.Primerament, actualitzem l’equip de manera que tindrem el sistema actualitzat.
+1.  Primerament, actualitzem l’equip de manera que tindrem el sistema actualitzat.
 
 ![image](https://user-images.githubusercontent.com/80846119/153273479-fe2dc02c-7518-4df3-a5bb-5148f4306be8.png)
 #
 
-2.Afegirem el repositori yum de percona per després procedir amb la instal·lació del nostre SGBD.
+2.  Afegirem el repositori yum de percona per després procedir amb la instal·lació del nostre SGBD.
 
 ![image](https://user-images.githubusercontent.com/80846119/153273560-2b2809cc-62b6-4b2b-a3e9-917faa338fa3.png)
 #
 
-3.Seguidament, comprovarem que la instal·lació ha sigut un èxit.
+3.  Seguidament, comprovarem que la instal·lació ha sigut un èxit.
 
 ![image](https://user-images.githubusercontent.com/80846119/153273986-c9364685-6f4a-433a-b8ad-dde949fbb935.png)
 #
 
-4.Ara habilitarem el repositori de percona
+4.  Ara habilitarem el repositori de percona
 
 ![image](https://user-images.githubusercontent.com/80846119/153274028-e212e111-c477-43cd-a2b9-3d678850bf79.png)
 #
 
-5.Finalment instal·larem el nostre percona server per mysql 8.0. Per fer aquesta acció, necessitarem executar un seguit de tres comandes.
+5.  Finalment instal·larem el nostre percona server per mysql 8.0. Per fer aquesta acció, necessitarem executar un seguit de tres comandes.
 
 ![image](https://user-images.githubusercontent.com/80846119/153274141-6d0593db-a143-4b59-88c8-170b93a0523a.png)
 
@@ -46,22 +46,22 @@ I una vegada hi hagi acabat farem el nostre `sudo apt-get upgrade`
 ![image](https://user-images.githubusercontent.com/80846119/153274159-f2718f0d-24ed-4153-9226-0b405483fcf4.png)
 #
 
-6.Comprovarem la instal·lació del nostre percona server amb mysql 8.0.
+6.  Comprovarem la instal·lació del nostre percona server amb mysql 8.0.
 
 ![image](https://user-images.githubusercontent.com/80846119/153274214-5c754001-260a-4745-bd9c-41b26dbb7881.png)
 #
 
-7.Ara initcialitzarem el servei mysql.
+7.  Ara initcialitzarem el servei mysql.
 
 ![image](https://user-images.githubusercontent.com/80846119/153274348-cc653d43-fcb9-42f2-b877-ec135d162252.png)
 #
 
-8.Farem la comprovació que el servei mysql està corrent.
+8.  Farem la comprovació que el servei mysql està corrent.
 
 ![image](https://user-images.githubusercontent.com/80846119/153274419-73cd3cbf-3e39-44a0-addd-15a3b5d5c094.png)
 #
 
-9.Ara que finalment tenim el nostre servei operatiu, copiarem la contrasenya temporal i executarem l’script d’instal·lació segura.
+9.  Ara que finalment tenim el nostre servei operatiu, copiarem la contrasenya temporal i executarem l’script d’instal·lació segura.
 
 ![image](https://user-images.githubusercontent.com/80846119/153274673-2babc6cf-9d1b-46ba-980b-62b4500d482a.png)
 
@@ -82,7 +82,7 @@ A l'apartat 9, en les ultimes captures he fet el procediment per poder inserir l
 
 #### Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades de Percona Server en el CentOS 7
 Les instruccions per arrancar el servei és
-`sudo `
+`sudo systemctl `
 #### A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?
 
 #### A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?
@@ -101,16 +101,16 @@ Les instruccions per arrancar el servei és
 
 INSTALAR MONGODB
 
-1. Primer em de crear un repositori, amb el següent contingut, la comanda ha de ser `sudo nano /etc/yum.repos.d/mongodb.org-4.4.repo`.
+1.  Primer em de crear un repositori, amb el següent contingut, la comanda ha de ser `sudo nano /etc/yum.repos.d/mongodb.org-4.4.repo`.
 ![image](https://user-images.githubusercontent.com/80846119/154326186-94d7f174-f747-44b7-aed4-b521aad33bc7.png)
 
-2. Ara intal·larem el servei del MongoDB amb la seguent comanda `sudo yum install mongodb-org`.
+2.  Ara intal·larem el servei del MongoDB amb la seguent comanda `sudo yum install mongodb-org`.
 ![image](https://user-images.githubusercontent.com/80846119/154327940-d4cc8687-2b10-461d-b09b-6738bb7c4bae.png)
 
-3. Una vegada intal·lat, iniciem el servei del nostre mongo db, i mirem el seu estat.
+3.  Una vegada intal·lat, iniciem el servei del nostre mongo db, i mirem el seu estat.
 ![image](https://user-images.githubusercontent.com/80846119/154328000-d0bde21c-83f3-40bf-b7e9-2da31efccf07.png)
 
-4. Ara ens podem conecta localment a MongoDB.
+4.  Ara ens podem conecta localment a MongoDB.
 ![image](https://user-images.githubusercontent.com/80846119/154328423-a50474a5-7317-4236-9c67-906ca739276b.png)
 
 
