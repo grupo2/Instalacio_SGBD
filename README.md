@@ -15,7 +15,7 @@ Farem un `sudo yum update`. <br>
 I una vegada hi hagi acabat farem el nostre `sudo yum upgrade`.
 #
 
-## [Instal·lació server SGBD (percona server)]()
+## Instal·lació Server SGBD
 
 1.  Primerament, actualitzem l’equip de manera que tindrem el sistema actualitzat.
 
@@ -123,9 +123,9 @@ Els fitxers que hi han per defecte són els següents:<br>
 Em de modificar el següent arxiu. <br>
 
 ![image](https://user-images.githubusercontent.com/80846119/154340108-1887257c-2635-4a5a-894e-0c0087b8d469.png)
+#
 
-
-INSTALAR MYSQL
+## Instal·lació SGBD MySQL 8.0
 
 0.  Una vegada que em instal·lat tota la part de mysql. (<b>no faig el procediment perquè ja hi és al primer apartat</b>).
 
@@ -150,8 +150,9 @@ INSTALAR MYSQL
    ![image](https://user-images.githubusercontent.com/80846119/154349318-b68e761c-69de-4c9b-91fd-149393a79a3e.png)
 
 6. Quines són les característiques principals que ofereix MySQL 8.0 enfront de la 5.7.
+#
 
-INSTALAR MONGODB
+## Instal·lació SGBD MongoDB
 
 1.  Primer em de crear un repositori, amb el següent contingut, la comanda ha de ser `sudo nano /etc/yum.repos.d/mongodb.org-4.4.repo`.
 
