@@ -78,9 +78,11 @@ I una vegada hi hagi acabat farem el nostre `sudo apt-get upgrade`
 ## RESPON O COMPROVA ELS SEGÜENTS APARTATS
 
 #### Un cop realitzada la instal·lació realitza una securització de la mateixa. Quin programa realitza aquesta tasca? Realitza una securització de la instal·lació indicant que la contrasenya de root sigui patata.
+A l'apartat 9, en les ultimes captures he fet el procediment per poder inserir la contrasenya patata.
 
 #### Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades de Percona Server en el CentOS 7
-
+Les instruccions per arrancar el servei és
+`sudo `
 #### A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?
 
 #### A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?
@@ -95,3 +97,22 @@ I una vegada hi hagi acabat farem el nostre `sudo apt-get upgrade`
 #### Important: No realitzis els canvis. Només indica els passos que faries.
 
 #### Ensenya al professor que us podeu connectar al SGBD.
+
+
+INSTALAR MONGODB
+
+1. Primer em de crear un repositori, amb el següent contingut, la comanda ha de ser `sudo nano /etc/yum.repos.d/mongodb.org-4.4.repo`.
+![image](https://user-images.githubusercontent.com/80846119/154326186-94d7f174-f747-44b7-aed4-b521aad33bc7.png)
+
+2. Ara intal·larem el servei del MongoDB amb la seguent comanda `sudo yum install mongodb-org`.
+![image](https://user-images.githubusercontent.com/80846119/154327940-d4cc8687-2b10-461d-b09b-6738bb7c4bae.png)
+
+3. Una vegada intal·lat, iniciem el servei del nostre mongo db, i mirem el seu estat.
+![image](https://user-images.githubusercontent.com/80846119/154328000-d0bde21c-83f3-40bf-b7e9-2da31efccf07.png)
+
+4. Ara ens podem conecta localment a MongoDB.
+![image](https://user-images.githubusercontent.com/80846119/154328423-a50474a5-7317-4236-9c67-906ca739276b.png)
+
+
+
+
