@@ -77,7 +77,7 @@ I una vegada hi hagi acabat farem el nostre `sudo yum upgrade`.
 
 ## RESPON O COMPROVA ELS SEGÜENTS APARTATS
 
-#### Un cop realitzada la instal·lació realitza una securització de la mateixa. Quin programa realitza aquesta tasca? Realitza una securització de la instal·lació indicant que la contrasenya de root sigui patata.
+### Un cop realitzada la instal·lació realitza una securització de la mateixa. Quin programa realitza aquesta tasca? Realitza una securització de la instal·lació indicant que la contrasenya de root sigui patata.
 A l'apartat 9, en les ultimes captures he fet el procediment per poder inserir la contrasenya patata.
 
 #### Quines són les instruccions per arrancar / verificar status / apagar servei de la base de dades de Percona Server en el CentOS 7
@@ -91,18 +91,18 @@ Les instruccions per veure l'estat del servei és <br>
 `sudo systemctl status mysql.service`
 
 
-#### A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?
+### A on es troba i quin nom rep el fitxer de configuració del SGBD Percona Server?
 El fitxer es el següent `/etc/my.cnf`.
 ![image](https://user-images.githubusercontent.com/80846119/154342730-b645bd6f-bdd2-4881-a3fa-673247b3ea72.png)
 
 
-#### A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?
+### A on es troben físicament els fitxers de dades (per defecte). Com ho has sabut?
 Ho he sabut perque en el fitxer de `/etc/my.cnf` hi ha un apartat on diu diu 'data dir' que apunta en aquells fitxers.<br>
 Els fitxers que hi han per defecte són els següents:<br>
 ![image](https://user-images.githubusercontent.com/80846119/154342921-4901db4a-cd57-4481-91d8-5ae4ef02bb75.png)
 
 
-#### Crea un usuari anomenat asix en el sistema operatiu i en SGBD de tal manera que aquest usuari del sistema operatiu no hagi d'introduir l'usuari i password cada vegada que cridem al client mysql?
+### Crea un usuari anomenat asix en el sistema operatiu i en SGBD de tal manera que aquest usuari del sistema operatiu no hagi d'introduir l'usuari i password cada vegada que cridem al client mysql?
 
   1. https://dev.mysql.com/doc/refman/8.0/en/password-security-user.html
   2. Usuari SO-→ asix / patata
@@ -119,7 +119,7 @@ Els fitxers que hi han per defecte són els següents:<br>
       - Comprovacions.
       ![image](https://user-images.githubusercontent.com/80846119/154346245-d5a02765-e56b-45a9-9099-5429859a85f3.png)
 
-#### El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? 
+### El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? 
 Em de modificar el següent arxiu. <br>
 
 ![image](https://user-images.githubusercontent.com/80846119/154340108-1887257c-2635-4a5a-894e-0c0087b8d469.png)
