@@ -107,6 +107,7 @@ Els fitxers que hi han per defecte són els següents:<br>
   1. https://dev.mysql.com/doc/refman/8.0/en/password-security-user.html
   2. Usuari SO-→ asix / patata
   3. Usuari MySQL → asix / patata
+ 
       - Crearem l'usuari al nostre sistema.
         ![image](https://user-images.githubusercontent.com/80846119/154343857-db7a5173-c381-4871-ab48-f1ab072ff123.png)
   
@@ -135,12 +136,12 @@ Em de modificar el següent arxiu. <br>
 
     ![image](https://user-images.githubusercontent.com/80846119/154342921-4901db4a-cd57-4481-91d8-5ae4ef02bb75.png)
 
-2. A on es troba el fitxer de configuració? Quin és el seu contingut?
+2. A on es troba el fitxer de configuració? Quin és el seu contingut?<br>
     El fitxer de configuració es trobra a `/etc/my.cnf`<br> 
     
     ![image](https://user-images.githubusercontent.com/80846119/154342730-b645bd6f-bdd2-4881-a3fa-673247b3ea72.png)
     
-3. El procés de mysqld escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? Important: No realitzis els canvis. Només indica els passos que faries.
+3. El procés de mysqld escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? Important: No realitzis els canvis. Només indica els passos que faries.<br>
     Em de modificar el següent arxiu. <br>
     
     ![image](https://user-images.githubusercontent.com/80846119/154340108-1887257c-2635-4a5a-894e-0c0087b8d469.png)
@@ -177,7 +178,7 @@ Em de modificar el següent arxiu. <br>
 
 ## Instal·lació SGBD SQLServer
 
-1. Priemer em de preparar el repositori.
+1. Primer em de preparar el repositori.
 
   ![image](https://user-images.githubusercontent.com/80846119/154361368-82e49eb4-d229-4398-b0ef-26675d5cae69.png)
 
@@ -199,19 +200,15 @@ Em de modificar el següent arxiu. <br>
   
   ![image](https://user-images.githubusercontent.com/80846119/154364812-78438f5f-afe6-40e5-9747-af7d0c1db06b.png)
 
-6. d
+6. Instal·larem les següents tools.
   
   ![image](https://user-images.githubusercontent.com/80846119/154365070-43de4ef2-55c2-4416-ae1b-e1c2661350d0.png)
 
-7.
-  
-  ![image](https://user-images.githubusercontent.com/80846119/154365365-71b9994d-61b4-4f53-be91-5f72e2038042.png)
-
-8. Afegirem 
+7. Afegirem aquest dues linies de comandes més.
 
   ![image](https://user-images.githubusercontent.com/80846119/154365704-4d906a32-a043-4db5-b9b1-6476a03bb481.png)
 
-9. Iniciem el servei amb l'usuari `sa`.
+8. Iniciem el servei amb l'usuari `sa`.
   
     
   
