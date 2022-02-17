@@ -150,8 +150,12 @@ Em de modificar el següent arxiu. <br>
    `ps -ef | grep mysql`<br>
    ![image](https://user-images.githubusercontent.com/80846119/154349318-b68e761c-69de-4c9b-91fd-149393a79a3e.png)
 
-6. Quines són les característiques principals que ofereix MySQL 8.0 enfront de la 5.7.
-
+6. Quines són les característiques principals que ofereix MySQL 8.0 enfront de la 5.7.<br>
+   
+   A diferencia del Mysql 5.7, el Mysql 8.0 té molts canvis.<br>
+   
+  
+  
 #
 
 ## Instal·lació SGBD MongoDB
