@@ -151,6 +151,7 @@ Em de modificar el següent arxiu. <br>
    ![image](https://user-images.githubusercontent.com/80846119/154349318-b68e761c-69de-4c9b-91fd-149393a79a3e.png)
 
 6. Quines són les característiques principals que ofereix MySQL 8.0 enfront de la 5.7.
+
 #
 
 ## Instal·lació SGBD MongoDB
@@ -175,6 +176,7 @@ Em de modificar el següent arxiu. <br>
 
    ![image](https://user-images.githubusercontent.com/80846119/154359336-ef76f32a-fbb8-4fb4-a855-c7ac06a9d940.png)
 
+#
 
 ## Instal·lació SGBD SQLServer
 
