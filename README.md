@@ -153,7 +153,11 @@ Em de modificar el següent arxiu. <br>
 6. Quines són les característiques principals que ofereix MySQL 8.0 enfront de la 5.7.<br>
    
    A diferencia del Mysql 5.7, el Mysql 8.0 té molts canvis.<br>
-   
+   * El primer ha destacar és la millora de rapidesa que té ha diferència del Mysql 5.7.<br>
+   * Millora en el rendiment InnoDB tan de càrregues com de lectura i escriptura. 
+   * Suport per UTF8, apartir del Mysql 8, té com ha defecte l'opció de caracters de UTF8 (abans s'utilitzaba el latin1).<br>
+   * Aquesta versió disposes varies funcions especials per treballar amb JSON, en la versió 5.7 es començava a ser sorpotat, però amb la nova versió s'ha potenciat i millarat.<br>
+   * Dona suport a funcions GIS, per una total treball amb el posicionament geogràfic.<br>
   
   
 #
