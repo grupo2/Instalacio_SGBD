@@ -73,7 +73,9 @@ I una vegada hi hagi acabat farem el nostre `sudo yum upgrade`.
 
 ![image](https://user-images.githubusercontent.com/80846119/153274714-df52c751-f951-40b3-9f6f-5ff71ca08ba1.png)
 #
-#
+
+10. Conecxió SGBD amb WorkBench i creació Base de Dades `proves`.
+    
 
 ## RESPON O COMPROVA ELS SEGÜENTS APARTATS
 
