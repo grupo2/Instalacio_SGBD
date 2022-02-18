@@ -74,8 +74,6 @@ I una vegada hi hagi acabat farem el nostre `sudo yum upgrade`.
 ![image](https://user-images.githubusercontent.com/80846119/153274714-df52c751-f951-40b3-9f6f-5ff71ca08ba1.png)
 #
 
-10. Conecxió SGBD amb WorkBench i creació Base de Dades `proves`.
-    
 
 ## RESPON O COMPROVA ELS SEGÜENTS APARTATS
 
@@ -161,7 +159,11 @@ Em de modificar el següent arxiu. <br>
    * Aquesta versió disposes varies funcions especials per treballar amb JSON, en la versió 5.7 es començava a ser sorpotat, però amb la nova versió s'ha potenciat i millarat.<br>
    * Dona suport a funcions GIS, per una total treball amb el posicionament geogràfic.<br>
   
-  
+ 7. Conecxió Mysql amb WorkBench i creació Base de Dades `proves`.
+   ![image](https://user-images.githubusercontent.com/80846119/154703661-c3a2d33f-b6f5-49db-a4ba-114127627538.png)
+    
+   ![image](https://user-images.githubusercontent.com/80846119/154703949-6bb47390-dc70-4ce9-b5a3-12b82e57eb3a.png)
+
 #
 
 ## Instal·lació SGBD MongoDB
@@ -186,6 +188,8 @@ Em de modificar el següent arxiu. <br>
 
    ![image](https://user-images.githubusercontent.com/80846119/154359336-ef76f32a-fbb8-4fb4-a855-c7ac06a9d940.png)
 
+6. Conexió amb MongoDB i creació Base de Dades `proves_MDB`.
+   
 #
 
 ## Instal·lació SGBD SQLServer
