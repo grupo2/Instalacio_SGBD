@@ -117,7 +117,7 @@ Els fitxers que hi han per defecte són els següents:<br>
       - Ara modificarem l'arxiu i afegirem 2 linies més.
       ![image](https://user-images.githubusercontent.com/80846119/154345263-cca11d0c-b3ca-4b85-9b54-26a30e1ba868.png)
 
-      - Comprovacions.
+      - Comprovacions.<br>
       ![image](https://user-images.githubusercontent.com/80846119/154346245-d5a02765-e56b-45a9-9099-5429859a85f3.png)
 
 ### * El servei de MySQL (mysqld) escolta al port 3306. Quina modificació/passos caldrien fer per canviar aquest port a 33306 per exemple? 
